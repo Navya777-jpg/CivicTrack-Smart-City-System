@@ -95,6 +95,9 @@ CivicTrack/
 
 ## 📸 Application Screenshots
 
+### Login Page
+![Login Page](login page.png)
+
 ### Citizen Dashboard
 ![Citizen Dashboard](citizen-dashboard.png)
 
@@ -103,3 +106,5 @@ CivicTrack/
 
 ### Issue Submission Page
 ![Issue Submission](submit-issue.png)
+
+
