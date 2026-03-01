@@ -1,20 +1,76 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌆 CivicTrack – Smart Citizen Issue Processing System
 
-# Run and deploy your AI Studio app
+CivicTrack is a full-stack civic issue management platform designed to bridge the gap between citizens and municipal authorities.
 
-This contains everything you need to run your app locally.
+It enables citizens to report public issues and allows government administrators to efficiently manage, track, and resolve them through a powerful analytics dashboard.
 
-View your app in AI Studio: https://ai.studio/apps/238b1c0c-f75d-4537-a7ee-c8ca59542b8d
+---
 
-## Run Locally
+## 🎯 Problem Statement
 
-**Prerequisites:**  Node.js
+Urban areas face delays and inefficiencies in resolving public complaints such as:
 
+- Road damage
+- Waste management issues
+- Water leakage
+- Streetlight failures
+- Public sanitation problems
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+CivicTrack provides a transparent and structured system to streamline issue reporting and resolution.
+
+---
+
+## 🏗️ System Architecture
+
+Frontend: React.js  
+Backend: Node.js + Express  
+Database: MongoDB  
+Authentication: JWT-based Role Authentication  
+Architecture Pattern: MVC  
+
+---
+
+## 👥 User Roles
+
+### 👤 Citizen
+- Register / Login
+- Report civic issues
+- Upload issue images
+- Track issue status
+- View complaint history
+- Filter issues by status
+
+### 🏛️ Admin (Municipal Authority)
+- Secure admin login
+- Dashboard with analytics
+- View all reported issues
+- Filter by category, status, and location
+- Update issue status (Pending → In Progress → Resolved)
+- Assign priority
+- Add remarks
+- View resolution performance metrics
+
+---
+
+## 📊 Admin Dashboard Features
+
+- Total Issues Overview
+- Pending / In Progress / Resolved statistics
+- Category-based analytics
+- Performance tracking
+- Interactive data visualization
+- Modern responsive UI
+
+---
+
+## 🔐 Role-Based Access Control
+
+The system uses role-based authentication:
+
+- Citizens can only access citizen routes
+- Admins can only access admin routes
+- JWT verification middleware protects private routes
+
+---
+
+## 🗂️ Project Folder Structure
