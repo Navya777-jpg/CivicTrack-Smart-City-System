@@ -96,7 +96,7 @@ CivicTrack/
 ## 📸 Application Screenshots
 
 ### Login Page
-![Login Page](login page.png)
+![Login Page]Login page.png)
 
 ### Citizen Dashboard
 ![Citizen Dashboard](citizen-dashboard.png)
