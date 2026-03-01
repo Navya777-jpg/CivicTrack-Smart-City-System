@@ -74,3 +74,19 @@ The system uses role-based authentication:
 ---
 
 ## 🗂️ Project Folder Structure
+CivicTrack/
+│
+├── client/ # React frontend
+│ ├── components/
+│ ├── pages/
+│ ├── routes/
+│
+├── server/ # Node backend
+│ ├── models/
+│ ├── controllers/
+│ ├── routes/
+│ ├── middleware/
+│
+├── .env.example
+├── package.json
+└── README.md
