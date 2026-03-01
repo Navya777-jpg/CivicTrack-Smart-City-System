@@ -1,0 +1,8 @@
+{
+  "name": "CivicTrack",
+  "description": "A smart citizen issue processing platform and municipal dashboard for modern city management.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
