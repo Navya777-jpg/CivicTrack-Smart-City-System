@@ -90,3 +90,16 @@ CivicTrack/
 ├── .env.example
 ├── package.json
 └── README.md
+
+
+
+## 📸 Application Screenshots
+
+### Citizen Dashboard
+![Citizen Dashboard](citizen-dashboard.png)
+
+### Admin Dashboard
+![Admin Dashboard](admin-dashboard.png)
+
+### Issue Submission Page
+![Issue Submission](submit-issue.png)
